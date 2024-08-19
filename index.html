@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator-el">
+            <input disabled id="input-el" placeholder="0"> 
+            <br>
+            <button class="btn" onclick="press('1')">1</button>
+            <button class="btn" onclick="press('2')">2</button>
+            <button class="btn" onclick="press('3')">3</button>
+            <button class="btn-sum btn" onclick="press('+')">+</button>
+            <br>
+            <button class="btn" onclick="press('4')">4</button>
+            <button class="btn" onclick="press('5')">5</button>
+            <button class="btn" onclick="press('6')">6</button>
+            <button class="btn-substract btn" onclick="press('-')">-</button>
+            <br>
+            <button class="btn" onclick="press('7')">7</button>
+            <button class="btn" onclick="press('8')">8</button>
+            <button class="btn" onclick="press('9')">9</button>
+            <button class="btn-multiply btn"  onclick="press('*')">*</button>
+            <br>
+            <button class="btn" onclick="press('0')">0</button>
+            <button class="btn btn-dot" onclick="press('.')">.</button>
+            <button class="btn-erase btn" onclick="eraser('C')">C</button>
+            <button class="btn-divide btn" onclick="press('/')">/</button>
+            <br>
+            <button class="btn btn-equal" onclick="equalTo()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
