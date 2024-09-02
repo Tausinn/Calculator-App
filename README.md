@@ -8,3 +8,7 @@ This is a basic calculator that performs essential arithmetic operations: additi
 To deploy this project on the website run:
 https://tausinn.github.io/Calculator-App/
 
+## Preview
+
+![App Screenshot](![IMG_0047](https://github.com/user-attachments/assets/90e2a739-86b1-4a33-bcd0-b6909f02b5c3)
+
